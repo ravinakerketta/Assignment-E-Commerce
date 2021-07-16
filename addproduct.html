@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <script src="index.js"></script>
+  <div class="header">
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <img src="images/lets-shopping-logo-design-template-shop-icon-vector-23363269.jpg" width="100px">
+            </div>
+    
+            <nav>
+                <ul>
+                    <li><a href="welcome.html">Home</a></li>
+                    <li><a href="product.html">Product</a></li>
+                    <li><a href="cart.html">Cart</a></li>
+                </ul>
+            </nav>       
+    </div>
+    <table>
+    <form>
+  <div class="container">
+    
+    <div class="mb-3">
+      <label for="product" class="form-label">Product</label>
+      <input type="text" class="form-control" id="product"  required>
+    </div>
+    
+    <br>
+    <div class="mb-3">
+      <label for="description" class="form-label">Description</label>
+      <input type="text" class="form-control" id="description" required>
+    </div>
+    <br>
+    <div class="mb-3">
+      <label for="image" class="form-label">Image</label>
+      <input type="file" class="form-control" id="image" required>
+  </div>
+  <br>
+  <div class="mb-3 ">
+    Quantity <input type="text" class="form-control " id="quantity" required>
+    </div>
+    <br>
+    <div class="mb-3 ">
+      Price <input type="text" class="form-control " id="quantity" required>
+      </div>
+      <br>
+      <div>
+      <button type="button" class="btn1" onclick="addProduct()">Add Product</button>
+      </div>
+</form>
+</table>
+</body>
+</html>
